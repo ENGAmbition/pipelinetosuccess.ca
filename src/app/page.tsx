@@ -11,7 +11,7 @@ import {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen w-screen flex-col">
+    <main className="mx-auto flex min-h-screen w-screen max-w-[90rem] flex-col">
       <HeroSection />
       <ProgramsSection />
       <AboutSection />
