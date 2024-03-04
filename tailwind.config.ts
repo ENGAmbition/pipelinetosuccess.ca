@@ -8,6 +8,12 @@ const config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "brand-neutral-200": "#C3D8DE",
+        "brand-neutral-600": "#446776",
+        "brand-neutral-700": "#3A5360",
+        "brand-neutral-950": "#131A1E",
+      },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
