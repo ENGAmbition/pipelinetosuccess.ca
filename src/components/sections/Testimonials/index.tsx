@@ -1,14 +1,13 @@
 import { FC, JSX } from "react";
 import { GradientText } from "pipeline-components";
+import BackgroundLineWave from "./BackgroundLineWave";
+import Image from "next/image";
 
 const TestimonialsSection: FC = (): JSX.Element => {
   return (
-    <section className="relative z-0 flex flex-col items-center bg-white py-20 text-brand-neutral-600">
-      <img
-        src="/assets/page-effects/line-effect.svg"
-        alt=""
-        className="absolute left-0 top-0 -z-10 h-full"
-      />
+    <section className="relative z-0 flex h-fit w-full flex-col items-center bg-white py-20 text-brand-neutral-600">
+      <BackgroundLineWave className="absolute left-0 top-0 -z-10" />
+
       <h3 className="">Testimonials</h3>
       <div className="mt-1 text-4xl font-bold text-black">
         Voices of <GradientText>Success</GradientText>
@@ -21,10 +20,12 @@ const TestimonialsSection: FC = (): JSX.Element => {
       <div className="mx-32 mt-16 flex flex-col gap-16">
         <div className="flex w-3/5 gap-4">
           <div className="w-36 rounded-full">
-            <img
-              src="/assets/images/landing/profile-1.jpg"
+            <Image
+              src="/images/testimonials/profile-1.jpg"
               alt="Profile of User 1"
               className="w-full"
+              width={100}
+              height={100}
             />
           </div>
           <div className="rounded-lg bg-gradient-to-r from-brand-neutral-950 via-[#3988F7]  via-30% to-[#52CEE7] p-[0.5px]">
@@ -66,10 +67,12 @@ const TestimonialsSection: FC = (): JSX.Element => {
             </div>
           </div>
           <div className="w-36 rounded-full">
-            <img
-              src="/assets/images/landing/profile-2.jpg"
+            <Image
+              src="/images/testimonials/profile-2.jpg"
               alt="Profile of User 2"
               className="w-full"
+              width={100}
+              height={100}
             />
           </div>
         </div>

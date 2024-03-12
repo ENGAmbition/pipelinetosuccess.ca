@@ -33,7 +33,7 @@ const UpdatesSection: FC = (): JSX.Element => {
           className="h-12 w-full max-w-72 rounded-md border border-gray-300 p-2 text-sm focus:outline-none"
         />
         <Button
-          className="font-poppins h-12 w-full max-w-32 text-sm font-normal"
+          className="h-12 w-full max-w-32 font-poppins text-sm font-normal"
           onClick={() => {}}
         >
           Join Now
