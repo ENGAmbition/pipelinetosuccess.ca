@@ -61,10 +61,7 @@ const InitiativesSection: FC = (): JSX.Element => {
 
   return (
     <section className="bg-brand-neutral-50 relative z-0 w-full px-12 py-12">
-      <BackgroundLineWave
-        // flip the wave
-        className="absolute right-0 top-0 -z-10"
-      />
+      <BackgroundLineWave className="absolute right-0 top-0 -z-10" />
 
       <div className="z-0 flex w-full flex-col items-center gap-4 py-20">
         <h1 className="text-center text-4xl font-bold text-black">
