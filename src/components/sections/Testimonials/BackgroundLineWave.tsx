@@ -11,9 +11,9 @@ const BackgroundLineWave: FC<{
   className?: string;
 }> = (props): JSX.Element => (
   <svg
-    width="1361"
-    height="507"
-    viewBox="0 0 1361 507"
+    width="1200px"
+    height="800px"
+    viewBox="0 0 1361 1061"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
     className={props.className}

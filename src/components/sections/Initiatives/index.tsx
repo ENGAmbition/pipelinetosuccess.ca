@@ -1,5 +1,8 @@
+import BackgroundLineWave from "./BackgroundLineWave";
 import { GradientText } from "pipeline-components";
 import { FC, JSX } from "react";
+import TrophySVG from "./TrophySVG";
+import Image from "next/image";
 
 const InitiativesSection: FC = (): JSX.Element => {
   return (
