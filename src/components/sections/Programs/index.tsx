@@ -5,17 +5,17 @@ import { FC, JSX } from "react";
 
 const ProgramsSection: FC = (): JSX.Element => {
   return (
-    <section className="flex w-screen flex-col bg-brand-neutral-50 p-12">
+    <section className="bg-brand-neutral-50 flex w-screen flex-col p-12">
       {/**
        *
        * Header
        *
        */}
-      <div className="z-0 flex w-full flex-col items-center py-12 text-brand-neutral-600">
-        <div className="mt-1 text-4xl font-bold text-black">
+      <div className="z-0 flex w-full flex-col items-center gap-4 py-12 text-brand-neutral-600">
+        <div className="text-4xl font-bold text-black">
           Explore Our <GradientText>Programs!</GradientText>
         </div>
-        <p className="mt-4 max-w-[40rem] text-center">
+        <p className="max-w-[40rem] text-center">
           Discover the possibilities within our exclusive PIPELINE programs,
           each tailored to bridge the gap between academic theory and
           professional practice.
